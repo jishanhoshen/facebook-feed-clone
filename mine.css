@@ -1,0 +1,153 @@
+/*** Siddik ***/
+.post_footer.extra {
+    height:auto;
+}
+.icon {
+    float: left;
+    font-size: 25px;
+    margin: 0 10px 0 15px;
+}
+.line {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    width: 90%;
+    margin:auto;
+}
+.like {
+    width: 26%;
+    margin: 5px 0px 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.comment {
+    width: 33%;
+    margin: 5px 0px 0 0px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.share {
+    width: 33%;
+    margin: 5px 0px 0 0px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.like p,
+.comment p,
+.share p {
+    margin:0px 0 0px 0;
+    display: inline-block;
+}
+.post_footer h4 {
+    color: #dddddd;
+}
+.view {
+    float: left;
+}
+.name {
+    margin:10px 20px 0 20px;
+}
+.commant_details {
+    margin: 30px 0 0 0;
+}
+.commant_details .img {
+    height:45px;
+    width: 45px;
+    float: left;
+    border-radius: 50%;
+    background: no-repeat top center / cover;
+}
+.commant_details .text {
+    width:80%;
+    height:auto;
+    color:#ffffff;
+    background: #555555;
+    overflow: hidden;
+    margin: 0 0 0 60px;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.commant_details .text p {
+    margin: 0 0px 0 15px;
+}
+.commant_details .text h4 {
+    color: #ffffff;
+    margin: 0 0px 0 15px;
+}
+.name a {
+    margin:0 0 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-decoration:none;
+    color:#ffffff;
+}
+.com-react {
+    width: 100%;
+    margin: 0 0 0 100px;
+}
+.com-react a {
+    float: left;
+    margin:0 0 20px 0px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+.com-react ul {
+    margin: 0;
+    padding: 0;
+}
+.com-react ul li {
+    float: left;
+    list-style: none;
+    margin:0 5px 0 0;
+
+}
+.more {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    margin:0 0 15px 20px;
+}
+.more a {
+    margin:0 0 0px 0;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-decoration:none;
+    color:#ffffff;
+}
+.name input {
+    background: transparent;
+    border:none;
+    min-height:40px;
+    margin-top: 5px;
+}
+.name input::placeholder {
+    font-size: 18px;
+}
+.wright {
+    overflow: hidden;
+    width:85%;
+    min-height:45px;
+    border-radius: 20px;
+    margin: 0 0 10px 10px;
+    padding-left: 15px;
+    background: #ffffff;
+}
+.wright .nav {
+    float: right;
+}
+.wright ul li {
+    float: left;
+}
+.wright ul li a {
+    color: #000000;
+}
+.replay .img {
+    height: 35px;
+    width: 35px;
+    float: left;
+}

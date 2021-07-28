@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html class="dark">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="blog ">
+	<meta name="keywords" content="blog">
+	<meta name="author" content="Jishan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>blog</title>
+	<link rel="stylesheet" href="css/fontawesome.all.min.css">
+	<link rel="stylesheet" href="js/fontawesome.all.min.js">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript">
+var theme = $(".themeMood");
+</script>
+</head>
+<body class="themeMood dark">
+	<div id="demo"></div>
+<div class="header dark">
+	<div class="logo"><h2>DREAME CREATORS</h2></div>
+</div>
+<div class="main_container">
+	<div class="post dark">
+		<div class="post_header dark">
+			<div class="profile_box" style="background-image: url(img/profile.jpg);"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box">
+				<i class="fa fa-ellipsis-v"></i>
+			</div>
+		</div>
+		<div class="post_body ">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+					<br/>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId1img1{
+							background-image: url(1.jpg);
+						}
+						#postId1img2{
+							background-image: url(2.jpg);
+						}
+						#postId1img3{
+							background-image: url(3.jpg);
+						}
+						#postId1img4{
+							background-image: url(4.jpg);
+						}
+					</style>
+					<div class="images q-img">
+						<div class="img" id="postId1img1"></div>
+						<div class="img" id="postId1img2"></div>
+						<div class="img" id="postId1img3"></div>
+						<div class="img" id="postId1img4"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer dark">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike" style="background-image: url(img/react/unlike.png);"></div>
+					<div class="react r-wow" style="background-image: url(img/react/wow.png);"></div>
+					<div class="react r-angry" style="background-image: url(img/react/angry.png);"></div>
+					<div class="react r-haha" style="background-image: url(img/react/haha.png);"></div>
+					<div class="react r-love" style="background-image: url(img/react/love.png);"></div>
+					<div class="react r-like" style="background-image: url(img/react/like.png);"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+		<div class="extra_footer dark">
+			<div class="j_line light">
+				<a class="j_like dark" href="#">
+					<div class="j_icon">
+						<i class="far fa-thumbs-up"></i>
+					</div>
+					<p>Like </p>
+				</a>
+				<a class="j_comments dark" href="#">
+					<div class="j_icon">
+						<i class="far fa-comment-alt"></i>
+					</div>
+					<p>How? 'Or' What</p>
+				</a>
+				<a class="j_share dark" href="#">
+					<div class="j_icon">
+						<i class="fa fa-share"></i>
+					</div>
+					<p>shear</p>
+				</a>
+			</div>
+			<div class="comment_box">
+				<div class="single_comment_box">
+					<div class="commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+					<div class="commenter_Comment">
+						<div class="commeter_name"><h4>User Name</h4></div>
+						<div class="commeter_comment"><p>Very good...perfect </p></div>
+					</div>
+				</div>
+				<div class="comments_review">
+					<ul>
+						<li><a href="#">10 like</a></li>
+						<li><a href="#">reply</a></li>
+						<li><a href="#">10 share</a></li>
+						<li><a href="#">2w</a></li>
+					</ul>
+				</div>
+				<div class="reply">
+					<div class="single_comment_box">
+						<div class="commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+						<div class="commenter_Comment">
+							<div class="commeter_name"><h4>User Name</h4></div>
+							<div class="commeter_comment"><p>Very good...perfect </p></div>
+						</div>
+					</div>
+					<div class="comments_review">
+						<ul>
+							<li><a href="#">10 like</a></li>
+							<li><a href="#">reply</a></li>
+							<li><a href="#">10 share</a></li>
+							<li><a href="#">2w</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="my_comment_box">
+				<div class="my_comment_profile commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+				<div class="comment_imput_box">
+					<form>
+						<div class="input_text">
+							<div id="comment_editor" contenteditable="true" data-text="Enter text here" autocomplete="off" ></div>
+							<input type="hidden" id="hidden-input" name="my-hidden-input" value="">
+							<div class="input_extra">
+								<ul>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -531px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -429px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -548px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -583px;"></div></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+					<script type="text/javascript">
+					var contentText = document.getElementById('comment_editor');
+					var hiddenInput = document.getElementById('hidden-input');
+
+					// copy the text to input when the user writes in contentText div
+					contentText.onkeyup = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onfocus = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onmouseout = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onmouseover = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="post dark">
+		<div class="post_header dark">
+			<div class="profile_box" style="background-image: url(img/profile.jpg);"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box">
+				<i class="fa fa-ellipsis-v"></i>
+			</div>
+		</div>
+		<div class="post_body ">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+					<br/>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId1img1{
+							background-image: url(1.jpg);
+						}
+						#postId1img2{
+							background-image: url(2.jpg);
+						}
+						#postId1img3{
+							background-image: url(3.jpg);
+						}
+					</style>
+					<div class="images t-img">
+						<div class="img" id="postId1img1"></div>
+						<div class="img" id="postId1img2"></div>
+						<div class="img" id="postId1img3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer dark">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike" style="background-image: url(img/react/unlike.png);"></div>
+					<div class="react r-wow" style="background-image: url(img/react/wow.png);"></div>
+					<div class="react r-angry" style="background-image: url(img/react/angry.png);"></div>
+					<div class="react r-haha" style="background-image: url(img/react/haha.png);"></div>
+					<div class="react r-love" style="background-image: url(img/react/love.png);"></div>
+					<div class="react r-like" style="background-image: url(img/react/like.png);"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+		<div class="extra_footer dark">
+			<div class="j_line light">
+				<a class="j_like dark" href="#">
+					<div class="j_icon">
+						<i class="far fa-thumbs-up"></i>
+					</div>
+					<p>Like </p>
+				</a>
+				<a class="j_comments dark" href="#">
+					<div class="j_icon">
+						<i class="far fa-comment-alt"></i>
+					</div>
+					<p>How? 'Or' What</p>
+				</a>
+				<a class="j_share dark" href="#">
+					<div class="j_icon">
+						<i class="fa fa-share"></i>
+					</div>
+					<p>shear</p>
+				</a>
+			</div>
+			<div class="comment_box">
+				<div class="single_comment_box">
+					<div class="commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+					<div class="commenter_Comment">
+						<div class="commeter_name"><h4>User Name</h4></div>
+						<div class="commeter_comment"><p>Very good...perfect </p></div>
+					</div>
+				</div>
+				<div class="comments_review">
+					<ul>
+						<li><a href="#">10 like</a></li>
+						<li><a href="#">reply</a></li>
+						<li><a href="#">10 share</a></li>
+						<li><a href="#">2w</a></li>
+					</ul>
+				</div>
+				<div class="reply">
+					<div class="single_comment_box">
+						<div class="commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+						<div class="commenter_Comment">
+							<div class="commeter_name"><h4>User Name</h4></div>
+							<div class="commeter_comment"><p>Very good...perfect </p></div>
+						</div>
+					</div>
+					<div class="comments_review">
+						<ul>
+							<li><a href="#">10 like</a></li>
+							<li><a href="#">reply</a></li>
+							<li><a href="#">10 share</a></li>
+							<li><a href="#">2w</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="my_comment_box">
+				<div class="my_comment_profile commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+				<div class="comment_imput_box">
+					<form>
+						<div class="input_text">
+							<div id="comment_editor" contenteditable="true" data-text="Enter text here" autocomplete="off" ></div>
+							<input type="hidden" id="hidden-input" name="my-hidden-input" value="">
+							<div class="input_extra">
+								<ul>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -531px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -429px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -548px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -583px;"></div></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+					<script type="text/javascript">
+					var contentText = document.getElementById('comment_editor');
+					var hiddenInput = document.getElementById('hidden-input');
+
+					// copy the text to input when the user writes in contentText div
+					contentText.onkeyup = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onfocus = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onmouseout = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onmouseover = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="post dark">
+		<div class="post_header dark">
+			<div class="profile_box" style="background-image: url(img/profile.jpg);"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box">
+				<i class="fa fa-ellipsis-v"></i>
+			</div>
+		</div>
+		<div class="post_body ">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+					<br/>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId1img1{
+							background-image: url(1.jpg);
+						}
+						#postId1img2{
+							background-image: url(2.jpg);
+						}
+					</style>
+					<div class="images d-img">
+						<div class="img" id="postId1img1"></div>
+						<div class="img" id="postId1img2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer dark">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike" style="background-image: url(img/react/unlike.png);"></div>
+					<div class="react r-wow" style="background-image: url(img/react/wow.png);"></div>
+					<div class="react r-angry" style="background-image: url(img/react/angry.png);"></div>
+					<div class="react r-haha" style="background-image: url(img/react/haha.png);"></div>
+					<div class="react r-love" style="background-image: url(img/react/love.png);"></div>
+					<div class="react r-like" style="background-image: url(img/react/like.png);"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+		<div class="extra_footer dark">
+			<div class="j_line light">
+				<a class="j_like dark" href="#">
+					<div class="j_icon">
+						<i class="far fa-thumbs-up"></i>
+					</div>
+					<p>Like </p>
+				</a>
+				<a class="j_comments dark" href="#">
+					<div class="j_icon">
+						<i class="far fa-comment-alt"></i>
+					</div>
+					<p>How? 'Or' What</p>
+				</a>
+				<a class="j_share dark" href="#">
+					<div class="j_icon">
+						<i class="fa fa-share"></i>
+					</div>
+					<p>shear</p>
+				</a>
+			</div>
+			<div class="comment_box">
+				<div class="single_comment_box">
+					<div class="commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+					<div class="commenter_Comment">
+						<div class="commeter_name"><h4>User Name</h4></div>
+						<div class="commeter_comment"><p>Very good...perfect </p></div>
+					</div>
+				</div>
+				<div class="comments_review">
+					<ul>
+						<li><a href="#">10 like</a></li>
+						<li><a href="#">reply</a></li>
+						<li><a href="#">10 share</a></li>
+						<li><a href="#">2w</a></li>
+					</ul>
+				</div>
+				<div class="reply">
+					<div class="single_comment_box">
+						<div class="commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+						<div class="commenter_Comment">
+							<div class="commeter_name"><h4>User Name</h4></div>
+							<div class="commeter_comment"><p>Very good...perfect </p></div>
+						</div>
+					</div>
+					<div class="comments_review">
+						<ul>
+							<li><a href="#">10 like</a></li>
+							<li><a href="#">reply</a></li>
+							<li><a href="#">10 share</a></li>
+							<li><a href="#">2w</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="my_comment_box">
+				<div class="my_comment_profile commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+				<div class="comment_imput_box">
+					<form>
+						<div class="input_text">
+							<div id="comment_editor" contenteditable="true" data-text="Enter text here" autocomplete="off" ></div>
+							<input type="hidden" id="hidden-input" name="my-hidden-input" value="">
+							<div class="input_extra">
+								<ul>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -531px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -429px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -548px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -583px;"></div></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+					<script type="text/javascript">
+					var contentText = document.getElementById('comment_editor');
+					var hiddenInput = document.getElementById('hidden-input');
+
+					// copy the text to input when the user writes in contentText div
+					contentText.onkeyup = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onfocus = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onmouseout = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onmouseover = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="post dark">
+		<div class="post_header dark">
+			<div class="profile_box" style="background-image: url(img/profile.jpg);"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box">
+				<i class="fa fa-ellipsis-v"></i>
+			</div>
+		</div>
+		<div class="post_body ">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+					<br/>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId1img1{
+							background-image: url(1.jpg);
+						}
+					</style>
+					<div class="images s-img">
+						<div class="img" id="postId1img1"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer dark">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike" style="background-image: url(img/react/unlike.png);"></div>
+					<div class="react r-wow" style="background-image: url(img/react/wow.png);"></div>
+					<div class="react r-angry" style="background-image: url(img/react/angry.png);"></div>
+					<div class="react r-haha" style="background-image: url(img/react/haha.png);"></div>
+					<div class="react r-love" style="background-image: url(img/react/love.png);"></div>
+					<div class="react r-like" style="background-image: url(img/react/like.png);"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+		<div class="extra_footer dark">
+			<div class="j_line light">
+				<a class="j_like dark" href="#">
+					<div class="j_icon">
+						<i class="far fa-thumbs-up"></i>
+					</div>
+					<p>Like </p>
+				</a>
+				<a class="j_comments dark" href="#">
+					<div class="j_icon">
+						<i class="far fa-comment-alt"></i>
+					</div>
+					<p>How? 'Or' What</p>
+				</a>
+				<a class="j_share dark" href="#">
+					<div class="j_icon">
+						<i class="fa fa-share"></i>
+					</div>
+					<p>shear</p>
+				</a>
+			</div>
+			<div class="comment_box">
+				<div class="single_comment_box">
+					<div class="commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+					<div class="commenter_Comment">
+						<div class="commeter_name"><h4>User Name</h4></div>
+						<div class="commeter_comment"><p>Very good...perfect </p></div>
+					</div>
+				</div>
+				<div class="comments_review">
+					<ul>
+						<li><a href="#">10 like</a></li>
+						<li><a href="#">reply</a></li>
+						<li><a href="#">10 share</a></li>
+						<li><a href="#">2w</a></li>
+					</ul>
+				</div>
+				<div class="reply">
+					<div class="single_comment_box">
+						<div class="commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+						<div class="commenter_Comment">
+							<div class="commeter_name"><h4>User Name</h4></div>
+							<div class="commeter_comment"><p>Very good...perfect </p></div>
+						</div>
+					</div>
+					<div class="comments_review">
+						<ul>
+							<li><a href="#">10 like</a></li>
+							<li><a href="#">reply</a></li>
+							<li><a href="#">10 share</a></li>
+							<li><a href="#">2w</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="my_comment_box">
+				<div class="my_comment_profile commenter_profile" style="background-image: url(img/profile.jpg);"></div>
+				<div class="comment_imput_box">
+					<form>
+						<div class="input_text">
+							<div id="comment_editor" contenteditable="true" data-text="Enter text here" autocomplete="off" ></div>
+							<input type="hidden" id="hidden-input" name="my-hidden-input" value="">
+							<div class="input_extra">
+								<ul>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -531px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -429px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -548px;"></div></li>
+									<li><div class="fb_copy_ico" style="background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/2x-qEdp0a7_.png);     background-position: 0 -583px;"></div></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+					<script type="text/javascript">
+					var contentText = document.getElementById('comment_editor');
+					var hiddenInput = document.getElementById('hidden-input');
+
+					// copy the text to input when the user writes in contentText div
+					contentText.onkeyup = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onfocus = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onmouseout = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					contentText.onmouseover = function() {
+					    hiddenInput.value = contentText.innerHTML;  // 'this' is pointing to contentText
+					}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- 	<div class="post">
+		<div class="post_header">
+			<div class="profile_box"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box"></div>
+		</div>
+		<div class="post_body">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title 2</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId2img1{
+							background-image: url(1.jpg);
+						}
+						#postId2img2{
+							background-image: url(2.jpg);
+						}
+						#postId2img3{
+							background-image: url(3.jpg);
+						}
+					</style>
+					<div class="images t-img">
+						<div class="img" id="postId2img1"></div>
+						<div class="img" id="postId2img2"></div>
+						<div class="img" id="postId2img3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike" style="background-image: url(img/react/unlike.png);"></div>
+					<div class="react r-wow" style="background-image: url(img/react/wow.png);"></div>
+					<div class="react r-angry" style="background-image: url(img/react/angry.png);"></div>
+					<div class="react r-haha" style="background-image: url(img/react/haha.png);"></div>
+					<div class="react r-love" style="background-image: url(img/react/love.png);"></div>
+					<div class="react r-like" style="background-image: url(img/react/like.png);"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="like">
+				<i class="far fa-thumbs-up"></i>
+				<p>Like </p>
+			</div>
+			<div class="comment">
+				<i class="far fa-comment-alt"></i>
+				<p>comment</p>
+			</div>
+			<div class="share">
+				<i class="fa fa-share"></i>
+				<p>shear</p>
+			</div>
+		</div>
+	</div>
+	<div class="post">
+		<div class="post_header">
+			<div class="profile_box"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box"></div>
+		</div>
+		<div class="post_body">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title 3</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+					<br/>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId3img1{
+							background-image: url(1.jpg);
+						}
+						#postId3img2{
+							background-image: url(2.jpg);
+						}
+					</style>
+					<div class="images d-img">
+						<div class="img" id="postId3img1"></div>
+						<div class="img" id="postId3img2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike" style="background-image: url(img/react/unlike.png);"></div>
+					<div class="react r-wow" style="background-image: url(img/react/wow.png);"></div>
+					<div class="react r-angry" style="background-image: url(img/react/angry.png);"></div>
+					<div class="react r-haha" style="background-image: url(img/react/haha.png);"></div>
+					<div class="react r-love" style="background-image: url(img/react/love.png);"></div>
+					<div class="react r-like" style="background-image: url(img/react/like.png);"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="like">
+				<i class="far fa-thumbs-up"></i>
+				<p>Like </p>
+			</div>
+			<div class="comment">
+				<i class="far fa-comment-alt"></i>
+				<p>comment</p>
+			</div>
+			<div class="share">
+				<i class="fa fa-share"></i>
+				<p>shear</p>
+			</div>
+			<hr>
+		</div>
+	</div>
+	<div class="post">
+		<div class="post_header">
+			<div class="profile_box"></div>
+			<div class="profile_title_box">
+				<div class="username">
+					<h3>jishan Hoshen jibon</h3>
+				</div>
+				<div class="post_time">
+					<p>12 hours</p>
+				</div>
+			</div>
+			<div class="menu_box"></div>
+		</div>
+		<div class="post_body">
+			<div class="post_container">
+				<div class="post_text_area">
+					<h2>Post title 4</h2>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+					<br/>
+					<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+				</div>
+				<div class="post_image_area">
+					<style type="text/css">
+						#postId4img3{
+							background-image: url(3.jpg);
+						}
+					</style>
+					<div class="images s-img">
+						<div class="img" id="postId4img3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="reacts_count">
+				<div class="reacts">
+					<div class="react r-unlike" style="background-image: url(img/react/unlike.png);"></div>
+					<div class="react r-wow" style="background-image: url(img/react/wow.png);"></div>
+					<div class="react r-angry" style="background-image: url(img/react/angry.png);"></div>
+					<div class="react r-haha" style="background-image: url(img/react/haha.png);"></div>
+					<div class="react r-love" style="background-image: url(img/react/love.png);"></div>
+					<div class="react r-like" style="background-image: url(img/react/like.png);"></div>
+				</div>
+				<div class="r-count"><p>100</p></div>
+			</div>
+			<div class="comment_count">
+				<p>100 comments</p>
+			</div>
+			<div class="share_count">
+				<p>100 share</p>
+			</div>
+		</div>
+		<div class="post_footer">
+			<div class="like">
+				<i class="far fa-thumbs-up"></i>
+				<p>Like </p>
+			</div>
+			<div class="comment">
+				<i class="far fa-comment-alt"></i>
+				<p>comment</p>
+			</div>
+			<div class="share">
+				<i class="fa fa-share"></i>
+				<p>shear</p>
+			</div>
+		</div>
+	</div> -->
+</div>
+<div class="footer dark">
+	<div class="logo">
+		<p>Dreame Creators Copyright 2021</p>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/fontawesome.all.min.js"></script>
+</body>
+</html>
